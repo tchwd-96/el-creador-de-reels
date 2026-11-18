@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+:root {
+  --canvas: #0a0a0c;
+  --surface: #131317;
+  --surface-elevated: #1a1a20;
+  --border-hairline: rgba(255, 255, 255, 0.08);
+  --accent: #d4af37;
+  --accent-hover: #e5c76b;
+  --text-primary: #f5f2eb;
+  --text-muted: #9e998e;
+}
+
+body {
+  background-color: var(--canvas);
+  color: var(--text-primary);
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.font-editorial {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-sans-ui {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.font-condensed-ui {
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.font-mono-tabular {
+  font-family: 'JetBrains Mono', monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom subtle scrollbars for atelier panels */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0c;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.14);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(212, 175, 55, 0.45);
+}
+
+input[type='range'] {
+  accent-color: #d4af37;
+}

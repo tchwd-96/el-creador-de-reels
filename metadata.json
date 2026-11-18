@@ -1,0 +1,6 @@
+{
+  "name": "Jewelry Promo Studio",
+  "description": "Estudio de producción de videos promocionales de alta joyería en español con recorte centrado, tipografía editorial, guiones con Gemini y renderizado por lotes en FFmpeg.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
